@@ -10,8 +10,10 @@
 
   <title>Reaimagine</title>
 
+  <link rel="shortcut icon" href="img/logo.ico">
+
   <!-- Font Awesome Icons -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/fontawesome-pro-5.11.2/css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
@@ -37,7 +39,9 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">REAIMAGINE</a>
+      <a class="navbar-brand js-scroll-trigger text-primary" href="#page-top">
+        <img src="img/logo.svg" style="width: 100px; margin-right: -1.5rem;" class="img-flud" alt="">REAIMAGINE
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -46,19 +50,22 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger text-primary" href="">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger text-primary" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger text-primary" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            <a class="nav-link js-scroll-trigger text-primary" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger text-primary" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger text-primary" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -70,13 +77,22 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold wow fadeInUp">Reaimagine</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="text-uppercase text-primary font-weight-bold wow fadeInUp">Reaimagine</h1>
+              <p class="wow fadeInLeft">- Realize Your Imagine -</p>
+              <p class="wow fadeInLeft text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est qui repudiandae laudantium quidem excepturi dolores, non ullam debitis nesciunt libero perspiciatis consequuntur eaque eveniet? Accusantium quisquam dignissimos vero repellat modi!</p>
+            </div>
+            <div class="col-md-6">
+
+              <img src="img/undraw_work_chat_erdt.svg" style="width: 50rem;" class="img-fluid wow fadeInUp" alt="">
+            </div>
+          </div>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5 wow fadeInLeft">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-             Deserunt praesentium, excepturi sunt corporis error aut laudantium illo natus modi maxime doloribus maiores corrupti autem adipisci temporibus cumque vel ipsum iure.</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger wow fadeInRight" href="#about">Find Out More</a>
+          <!-- <p class="text-white-75 font-weight-light mb-5 wow fadeInLeft">- Realizedsadas Your Imagine -</p> -->
+          <a class="btn btn-primary btn-xl js-scroll-trigger wow fadeInRight" href="#about">More</a>
         </div>
       </div>
     </div>
@@ -85,15 +101,18 @@
   <!-- About Section -->
   <section class="page-section bg-primary" id="about">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row">
         <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0 wow fadeInUp">We've got what you need!</h2>
+          <h2 class="text-white mt-0 wow fadeInUp">What is Reaimagine?</h2>
           <hr class="divider light my-4">
           <p class="text-white mb-4 wow fadeInDown">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum similique ratione impedit laboriosam modi aperiam iure, 
             quae illum fuga repellendus, non deserunt alias, esse veritatis minima saepe nisi? Architecto, voluptatibus.
           </p>
-          <a class="btn btn-light btn-xl js-scroll-trigger wow fadeInUp" href="#services">Get Started!</a>
+          
+        </div>
+        <div class="col-lg-4">
+          <img src="img/undraw_progressive_app_m9ms.svg" class="img-fluid" style="width: 40rem;" alt="">
         </div>
       </div>
     </div>
@@ -144,19 +163,19 @@
 
       <div class="row">
           <div class="col-lg-3 wow flipInX text-center" data-wow-delay="1.0s">
-              <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+              <i class="fab fa-4x fa-laravel text-danger mb-4"></i>
               <h3 class="text-white">Laravel</h3>
           </div>
           <div class="col-lg-3 wow flipInX text-center" data-wow-delay="1.0s">
-              <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+              <i class="fab fa-4x fa-react text-primary mb-4"></i>
               <h3 class="text-white">React</h3>
           </div>
           <div class="col-lg-3 wow flipInX text-center" data-wow-delay="1.0s">
-              <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+              <i class="fab fa-4x fa-android text-success mb-4"></i>
               <h3 class="text-white">Android</h3>
           </div>
           <div class="col-lg-3 wow flipInX text-center" data-wow-delay="1.0s">
-              <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+              <i class="fab fa-4x fa-node text-success mb-4"></i>
               <h3 class="text-white">NodeJS</h3>
           </div>
       </div>
@@ -402,7 +421,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.js"></script>
-
+  <!-- Font Awesome -->
+  <script src="vendor/fontawesome-pro-5.11.2/js/all.min.js"></script>
   <!-- Owl Carousel -->
   <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
   <!-- WOW.Js -->
